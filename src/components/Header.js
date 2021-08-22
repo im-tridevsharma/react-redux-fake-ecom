@@ -6,7 +6,10 @@ const Header = () => {
     <header>
       <nav className="navbar navbar-light bg-light">
         <Link to="/" className="navbar-brand">
-          fakeEcom
+          <span className="mr-2">fakeEcom</span>
+          <small style={{ fontSize: "12px" }}>
+            powered by <code>fakestoreapi</code>
+          </small>
         </Link>
       </nav>
     </header>
